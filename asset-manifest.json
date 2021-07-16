@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/scot-website/static/css/main.03b99e4c.chunk.css",
+    "main.js": "/scot-website/static/js/main.77ae42e5.chunk.js",
+    "main.js.map": "/scot-website/static/js/main.77ae42e5.chunk.js.map",
+    "runtime-main.js": "/scot-website/static/js/runtime-main.b789b5fd.js",
+    "runtime-main.js.map": "/scot-website/static/js/runtime-main.b789b5fd.js.map",
+    "static/js/2.6bbde974.chunk.js": "/scot-website/static/js/2.6bbde974.chunk.js",
+    "static/js/2.6bbde974.chunk.js.map": "/scot-website/static/js/2.6bbde974.chunk.js.map",
+    "static/js/3.262f142a.chunk.js": "/scot-website/static/js/3.262f142a.chunk.js",
+    "static/js/3.262f142a.chunk.js.map": "/scot-website/static/js/3.262f142a.chunk.js.map",
+    "index.html": "/scot-website/index.html",
+    "static/css/main.03b99e4c.chunk.css.map": "/scot-website/static/css/main.03b99e4c.chunk.css.map",
+    "static/js/2.6bbde974.chunk.js.LICENSE.txt": "/scot-website/static/js/2.6bbde974.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/scot-website/static/media/mtrainierhighquality.5fac7fda.jpg",
+    "static/media/Header.css": "/scot-website/static/media/rottyimagecropped.a99abf65.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b789b5fd.js",
+    "static/js/2.6bbde974.chunk.js",
+    "static/css/main.03b99e4c.chunk.css",
+    "static/js/main.77ae42e5.chunk.js"
+  ]
+}
