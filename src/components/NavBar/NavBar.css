@@ -1,0 +1,18 @@
+.MuiAppBar-colorPrimary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 46, 46, 0.7) !important;
+}
+
+.navbar {
+  width: 100%;
+  margin-bottom: 20vh;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(58, 99, 177)
+}
+
+a:visited {
+  color:rgb(136, 136, 136)
+}

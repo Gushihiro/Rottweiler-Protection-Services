@@ -1,0 +1,15 @@
+.pageHead {
+  min-height: 10vh;
+  width: 90%;
+  margin-bottom: 20vh;
+  background-color: hsla(208, 100%, 97%, 0.705);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pageHead h1 {
+  font-size: 3rem;
+  color:rgba(48, 48, 48, 0.822);
+}

@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5vh;
+  background-color: hsla(208, 100%, 97%, 0.705);
+  min-height: 5vh;
+  width: 95%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+
+.footer h3 {
+  color:rgba(48, 48, 48, 0.822);
+}

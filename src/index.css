@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('images/mtrainierhighquality.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.mainpage, .servicespage, .aboutpage, .teampage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicespagehead, .teampagehead, .aboutpagehead {
+  min-height: 10vh;
+  width: 90%;
+  margin-bottom: 20vh;
+  background-color: hsla(208, 100%, 97%, 0.705);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.servicespagehead h1, .teampagehead h1, .aboutpagehead h1 {
+  font-size: 3rem;
+  color:rgba(48, 48, 48, 0.822);
+}
+
+.mainpageinfo, .servicespageinfo, .aboutpageinfo, .teampageinfo {
+  background-color: hsla(208, 100%, 97%, 0.705);
+  min-height: 100vh;
+  width: 90%;
+  border-radius: 10px;
+  
 }

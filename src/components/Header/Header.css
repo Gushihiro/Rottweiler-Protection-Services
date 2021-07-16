@@ -1,0 +1,33 @@
+
+
+.header {
+  width:100vw;
+  min-height: 50vh;
+  background-color:black;
+  background-image: url('../../images/rottyimagecropped.jpg');
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headertext {
+  width: 95%;
+  min-height: 10vh;
+  background-color: hsla(208, 100%, 97%, 0.322);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.headertext h1 {
+  font-size: 3rem;
+  color:rgba(48, 48, 48, 0.815);
+}
