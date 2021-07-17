@@ -1,12 +1,13 @@
 .pageHead {
   min-height: 10vh;
   width: 90%;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
   background-color: hsla(208, 100%, 97%, 0.705);
   display: flex;
   justify-content: center;
   border-radius: 10px;
   text-align: center;
+  box-shadow:1px 2px 5px rgba(0, 0, 0, 0.466);
 }
 
 .pageHead h1 {

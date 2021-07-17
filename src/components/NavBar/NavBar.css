@@ -5,14 +5,44 @@
 
 .navbar {
   width: 100%;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar img {
+  scale: .5;
+  margin: 0 auto;
+}
+
+.popoverCont {
+  display: none;
+}
+
+.appbarLinks {
+  width:60%;
+  display: flex;
+  justify-content: space-around;
 }
 
 a {
   text-decoration: none;
-  color:rgb(58, 99, 177)
+  color:hsl(0, 0%, 94%)
 }
 
 a:visited {
-  color:rgb(66, 66, 66)
+  color:rgb(184, 184, 184)
+}
+
+@media screen and (max-width: 992px) {
+
+  .popoverCont {
+    display: flex;
+  }
+
+  .appbarLinks {
+    display: none;
+  }
 }

@@ -4,9 +4,10 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
+import Popover from '@material-ui/core/Popover';
 import MenuIcon from '@material-ui/icons/Menu';
-import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+// import logo from '../../images/rottylogo.png';
 import './NavBar.css'
 
 interface Props {
@@ -24,37 +25,61 @@ export default function NavBar({currentPage}: Props) {
     setAnchorEl(null);
   };
 
+  const open = Boolean(anchorEl);
+  const id = open ? 'simple-popover' : undefined;
+
   return (
     <div className='navbar'>
       <AppBar position="static">
         <Toolbar>
+          <div className='popoverCont'>
           <IconButton edge="start" color="inherit" aria-label="menu" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
             <MenuIcon />
           </IconButton>
-          <Menu
-            id="simple-menu"
-            anchorEl={anchorEl}
-            keepMounted
-            open={Boolean(anchorEl)}
-            onClose={handleClose}
-          >
-            <Link to={'/'}>
-              <MenuItem onClick={handleClose}>Home</MenuItem>
-            </Link>
-            <Link to={'/services'}>
-              <MenuItem onClick={handleClose}>Services</MenuItem>
-            </Link>
-            <Link to={'/about'}>
-              <MenuItem onClick={handleClose}>About Us</MenuItem>
-            </Link>
-            <Link to={'/theteam'}>
-              <MenuItem onClick={handleClose}>Meet The Team</MenuItem>
-            </Link>
-          </Menu>
+          </div>
+            <Popover
+              className='popoverCont'
+              id={id}
+              open={open}
+              anchorEl={anchorEl}
+              onClose={handleClose}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'center',
+              }}
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'center',
+              }}
+              >
+              <Link to={'/'}>
+                <MenuItem onClick={handleClose}>Home</MenuItem>
+              </Link>
+              <Link to={'/services'}>
+                <MenuItem onClick={handleClose}>Services</MenuItem>
+              </Link>
+              <Link to={'/about'}>
+                <MenuItem onClick={handleClose}>About Us</MenuItem>
+              </Link>
+              <Link to={'/theteam'}>
+                <MenuItem onClick={handleClose}>Meet The Team</MenuItem>
+              </Link>
+            </Popover>
           <Typography variant="h6">
-            Rottweiler Protection Services | {currentPage}
+            Rottweiler Protection Services | {currentPage} 
           </Typography>
         </Toolbar>
+        <div className="appbarLinks">
+          <Link to={'/'}>
+            <h4>Home</h4>
+          </Link>
+          <Link to={'/services'}>
+            <h4>Services</h4>
+          </Link>
+          <Link to={'/theteam'}>
+            <h4>Meet The Team</h4>
+          </Link>
+        </div>
       </AppBar>
     </div>
   )

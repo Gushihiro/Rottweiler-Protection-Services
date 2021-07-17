@@ -2,7 +2,6 @@ import NavBar from '../components/NavBar'
 import Header from '../components/Header'
 import PageHead from '../components/PageHead'
 import Footer from '../components/Footer'
-import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';

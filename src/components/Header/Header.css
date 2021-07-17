@@ -4,7 +4,7 @@
   width:100vw;
   min-height: 50vh;
   background-color:black;
-  background-image: url('../../images/rottyimagecropped.jpg');
+  background-image: url('../../images/mtrainierhighquality.jpg');
   /* Set a specific height */
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -13,21 +13,22 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .headertext {
-  width: 95%;
-  min-height: 10vh;
-  background-color: hsla(208, 100%, 97%, 0.322);
+  width: 100%;
+  min-height: 5vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgba(46, 46, 46, 0) !important;
 }
 
 .headertext h1 {
-  font-size: 3rem;
-  color:rgba(48, 48, 48, 0.815);
+  font-size: 2rem;
+  color:rgba(255, 255, 255, 0.815);
 }
