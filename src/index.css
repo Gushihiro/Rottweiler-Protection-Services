@@ -23,26 +23,41 @@ code {
   align-items: center;
 }
 
-.servicespagehead, .teampagehead, .aboutpagehead {
-  min-height: 10vh;
-  width: 90%;
-  margin-bottom: 20vh;
-  background-color: hsla(208, 100%, 97%, 0.705);
-  display: flex;
-  justify-content: center;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.servicespagehead h1, .teampagehead h1, .aboutpagehead h1 {
-  font-size: 3rem;
-  color:rgba(48, 48, 48, 0.822);
-}
-
 .mainpageinfo, .servicespageinfo, .aboutpageinfo, .teampageinfo {
   background-color: hsla(208, 100%, 97%, 0.705);
   min-height: 100vh;
   width: 90%;
   border-radius: 10px;
-  
+  text-align: center;
+}
+
+.servicespageinfo h1 {
+  color:rgb(48, 48, 48);
+}
+.servicespageinfo h3 {
+  color:rgb(66, 66, 66);
+}
+
+.teampageinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.heading {
+  font-size: 2rem !important;
+}
+
+.MuiPaper-root {
+  background-color: hsla(208, 100%, 97%, 0.199) !important;
+}
+
+.MuiMenu-paper {
+  background-color: hsla(208, 100%, 97%, 0.596) !important;
+}
+
+.MuiAccordionSummary-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

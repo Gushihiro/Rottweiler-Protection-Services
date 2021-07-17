@@ -15,10 +15,13 @@ export default function Services() {
         currentPageHead = 'WHAT WE PROVIDE'
       />
       <div className='servicespageinfo'>
+        <h1>Security Patrols & Special Events</h1>
+        <h3>For security patrols, we provide personnel to patrol the client's property on an hourly rotation.</h3>
+        <h3>For special events, we provide personnel to work venues at concerts, festivals, weddings, office holiday parties. And other high-profile special events.
+                  The safety of the guest in attendance while following the guidelines mandated by local and federal laws.</h3>
         <p>
           <ul>
             <li>
-              Security Patrols & Special Events
               <ul>
                 <li>
                   Security Patrols we  provide personnel to patrol the client's property on an hourly rotation.

@@ -1,8 +1,8 @@
 {
-  "name": "scot-website",
+  "name": "RottweilerProtectionServices",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gushihiro.github.io/scot-website",
+  "homepage": "http://gushihiro.github.io/rottweilerprotectionservices",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
