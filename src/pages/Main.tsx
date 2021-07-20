@@ -12,11 +12,20 @@ export default function Main() {
         currentPage='Home'
       />
       <div className='mainpageinfo'>
-        <h2>
-          Rottweiler Protection Services LLC is a Black and Veteran owned business that was established in 2014 with the vision for providing Security, 
-          Personal Protection, and Escorts to meet the needs of our client(s), while helping the United States Government preserve and protect our borders using 
-          anti-terrorism and counter-terrorism measures.
-        </h2>
+        <div className='mainpageabout'>
+          <h1>OUR MISSION</h1>
+          <h2>
+            Rottweiler Protection Services LLC is a Black and Veteran owned business that was established in 2014 with the vision for providing Security, 
+            Personal Protection, and Escorts to meet the needs of our client(s), while helping the United States Government preserve and protect our borders using 
+            anti-terrorism and counter-terrorism measures.
+          </h2>
+        </div>
+        <div className='mainpageabout'>
+          <h2>
+            Rottweiler Protection Services Mission is to provide exceptional service to all  clients and preserve their safety by having a great friendly attitude 
+            and being first rate professionals.
+          </h2>
+        </div>
       </div>
       <Footer/>
     </div>

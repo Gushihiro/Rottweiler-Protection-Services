@@ -64,13 +64,16 @@ export default function NavBar({currentPage}: Props) {
               <Link to={'/theteam'}>
                 <MenuItem onClick={handleClose}>Meet The Team</MenuItem>
               </Link>
+              <Link to={'/contactus'}>
+                <MenuItem onClick={handleClose}>Contact Us</MenuItem>
+              </Link>
             </Popover>
           <Typography variant="h6">
             Rottweiler Protection Services | {currentPage} 
           </Typography>
         </Toolbar>
         <div className="appbarLinks">
-          <Link to={'/'}>
+          <Link to={'/rottweilerprotectionservices'}>
             <h4>Home</h4>
           </Link>
           <Link to={'/services'}>
@@ -78,6 +81,9 @@ export default function NavBar({currentPage}: Props) {
           </Link>
           <Link to={'/theteam'}>
             <h4>Meet The Team</h4>
+          </Link>
+          <Link to={'/contactus'}>
+            <h4>Contact Us</h4>
           </Link>
         </div>
       </AppBar>

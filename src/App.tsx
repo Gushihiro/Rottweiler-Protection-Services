@@ -3,11 +3,11 @@ import Main from './pages/Main'
 import About from './pages/About'
 import Team from './pages/Team'
 import Services from './pages/Services'
-
+import Contact from './pages/Contact'
 function App() {
   return (
    <Router>
-     <Route exact path ="/">
+     <Route exact path ="/rottweilerprotectionservices">
        <Main/>
      </Route>
      <Route exact path ="/services">
@@ -18,7 +18,10 @@ function App() {
      </Route>
      <Route exact path ="/theteam">
        <Team/>
-      </Route>
+     </Route>
+     <Route exact path ="/contactus">
+       <Contact />
+     </Route>
    </Router>
   );
 }
