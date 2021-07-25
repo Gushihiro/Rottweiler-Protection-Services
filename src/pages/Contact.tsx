@@ -11,7 +11,7 @@ export default function Contact() {
         currentPage='Contact Us'
       />
       <div className='contactusinfo'>
-
+        Phone Number: (206) 578-8388
       </div>
       <Footer />
     </div>
