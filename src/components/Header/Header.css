@@ -34,6 +34,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .header {
+    min-height:30vh;
+    align-items: center;
+  }
   img {
     width: 100vw;
   }
