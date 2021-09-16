@@ -73,7 +73,7 @@ export default function NavBar({currentPage}: Props) {
           </Typography>
         </Toolbar>
         <div className="appbarLinks">
-          <Link to={'/rottweilerprotectionservices'}>
+          <Link to={'/'}>
             <h4>Home</h4>
           </Link>
           <Link to={'/services'}>
