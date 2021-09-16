@@ -75,6 +75,10 @@ code {
   align-items: stretch;
 }
 
+.contactusinfo {
+  padding-top: 20vh;
+}
+
 .heading {
   font-size: 2rem !important;
 }
