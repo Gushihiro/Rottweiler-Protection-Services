@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 function App() {
   return (
    <Router>
-     <Route exact path ="/rottweilerprotectionservices">
+     <Route exact path ="/">
        <Main/>
      </Route>
      <Route exact path ="/services">
