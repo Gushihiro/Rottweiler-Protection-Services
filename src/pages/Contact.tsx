@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import NavBar from '../components/NavBar'
 import Header from '../components/Header'
-import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 
 export default function Contact() {
