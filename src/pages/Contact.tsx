@@ -19,9 +19,9 @@ export default function Contact() {
       />
       <div className='contactusinfo'>
         <section className='wrapper'>
-          <form action="mailto:someone@example.com" method='post' id='contact-form'>
+          <form action="mailto:scotjones@rottprotectionsrvcs.com" method='post' id='contact-form'>
             <textarea name='message' value={mailContent} onChange={handleInputChange} className='messageText'></textarea>
-            <button className='btn'type='submit'>Send an Email</button>
+            <button className='btn'type='submit'>Email for more Information</button>
           </form>
         </section>
       </div>
